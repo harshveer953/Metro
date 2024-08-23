@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    / font-family: "Rowdies", sans-serif; /
+    font-family: "Ubuntu", sans-serif;
+    / border:  1px solid red; /
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    / padding-bottom: 40px; /
+    background-color: rgb(242, 243, 245);
+    position: relative;
+    z-index: -2;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 45, 114);
+}
+.nav-cont{
+    width: 50%;
+    height: auto;
+    display: flex;
+    / align-items: center; /
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav-cont img{
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -5px;
+}
+.nav-cont button{
+    width: 33%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: .9em;
+}
+.nav-cont i{
+    font-size: 1.5em;
+}
+.nav-cont span{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    padding-inline: 5px;
+    border-radius: 50%;
+}
+.container2{
+    width: 98%;
+    height: auto;
+    background-color: #F2F3F5;
+    margin-top: 12px;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;   
+    background-color: rgb(242, 243, 245);
+    padding-bottom: 40px;
+}
+.four-boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 15px;
+    flex-wrap: wrap;
+}
+.four-one{
+    width: 23%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 224, 254);
+    padding-block: 20px;
+    transition: .3s;
+}
+.four-one:hover{
+    box-shadow: 2px 0 10px rgb(36, 36, 36);
+}
+.four-one i{
+    font-size: 4em;
+    color: rgb(0, 45, 114);
+}
+.four-one a{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: rgb(0, 45, 114);
+}
+.food-containers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  
+}
+.food-cont{
+    width: 50%;
+    height: auto;
+}
+.food-cont h4{
+    margin-left: 20px;
+}
+.food-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    / gap: 10px; /
+    transition: .6s;
+}
+.food{
+    width: 32%;
+    height: 150px;
+    background-color: white;
+    border-radius: 1px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+}
+.food:hover{
+    box-shadow: 2px 0 10px rgb(36, 36,36);
+}
+.food p{
+    color: rgb(0, 45, 114);
+    font-weight: 500;
+    font-size: .8em;
+}
+.food img{
+    width: 30%;
+    position: relative;
+    left: 100px;
+}
+.non-food-main{
+    width: 50%;
+    height: auto;
+    
+}
+.non-food-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.non-food-main h4{
+    padding-left: 20px;
+}
+.non-food{
+    width: 32%;
+    height: 150px;
+    background-color: rgb(0, 89, 228);
+    border-radius: 1px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.non-food:hover{
+    box-shadow: 0 0 10px blue;
+}
+.non-food p{
+    color: rgb(250, 252, 254);
+    font-weight: 500;
+    font-size: .8em;
+}
+.non-food img{
+    width: 30%;
+    position: relative;
+    left: 100px;
+    color: white; 
+}
+
+.harsh{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+    background-color: #F2F3F5;
+   
+
+}
+
+.text-part{
+    width: 48%;
+    height: 400px;
+    background-color: #FFED00;
+    padding: 1rem;
+
+}
+.text-part h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #002D72;
+}
+.text-part p{
+    font-size: 1.2rem;
+    padding-top: 3rem;
+}
+
+.image-part{
+    width: 62%;
+    height: auto;
+}
+
+.image-part img{
+    width: 100%;
+    height: 400px;
+}
+
+.card-section{
+
+    width: 100%;
+    height: auto;
+    background-color: #F2F3F5;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-block: 30px;
+}
+.first-card{
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     gap: 10px; 
+}
+.first-card h4{
+    color: rgb(0, 45, 114);
+    font-size: 1.2em;
+}
+.first-card p{
+    color: rgb(2, 36, 85);
+}
+.first-card:nth-child(2) img{
+    width: 22%;
+}
+.first-card:nth-child(2) a{
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+.first-card h6{
+    font-size: 1em;
+    font-weight: 300;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.footer-menu-containers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+}
+.first-menu{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+.first-menu h3{
+    font-size: 1.2em;
+    color: rgb(1, 20, 48);
+}
+.menu-opestion{
+    / width: 100%; /
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.menu-opestion a{
+    text-decoration: none;
+    color: rgb(40, 54, 86);
+    font-weight: 200;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.cont-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cont-info span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.cont-info span i{
+    color: blue;
+    font-size: 1.2em;
+}
+.cont-info span a{
+    letter-spacing: 1px;
+    color: rgb(0, 45, 114);
+    font-size: .9em;
+}
+.first-menu p{
+    font-size: .8em;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.icons i{
+    font-size: 1.8em;
+    color: rgb(58, 155, 229);
+}
+.footer-pera{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.footer-pera p{
+    width: 95%;
+    font-size: .8em;
+    background: rgba(169, 226, 227, 0.792);
+    padding: 20px 20px;
+    text-align: center;
+}
+.footer-metro{
+    width: 100%;
+    height: auto;
+}
+.footer-metro p{
+    / width: 10%; /
+    font-size: 1em;
+    padding: 20px;
+    color: rgb(1, 20, 48);
+}
+.footer-end-part{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 45, 114);
+    display: flex;
+    gap: 30px;
+    
+}
+.footer-end-part a{
+    color: white;
+    letter-spacing: .5px;
+    font-weight: 300;
+    padding: 30px;
+}
+
+@media (max-width:480px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+    .nav-cont{
+        width: 80%;
+        gap: 10px;
+    }
+    .nav-cont button{
+        width: 50%;
+        font-size: .6em;
+        font-weight: 400;
+    }
+    .four-boxes{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .four-one{
+        width: 70%;
+        height: auto;
+    }
+    .food-containers{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .food-cont{
+        width: 98%;
+        height: auto;
+    }
+    .food img{
+        left: 50px;
+    }
+    .non-food-main{
+        width: 98%;
+        height: auto;
+    }
+    .non-food img{
+        left: 50px;
+    }
+  
+    .harsh{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .text-part{
+        width: 80%;
+    }
+    .image-part{
+        width: 80%;
+    }
+
+    .card-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .first-card{
+        width: 100%;
+        height: auto;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-menu-containers{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .first-menu{
+        width: 100%;
+        height: auto;
+        gap: 30px;
+    }
+    .menu-opestion{
+        display: none;
+    }
+    .cont-info{
+        display: none;
+    }
+    .footer-end-part{
+        width: 100%;
+        height: auto;
+    }
+    .footer-end-part a{
+        font-size: .8em;
+    }
+}
